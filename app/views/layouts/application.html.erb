@@ -7,6 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <ul>
+    <li><%= link_to "Gametime", root_path %></li>    
+    <li><%= link_to "Discover", welcome_discover_path %></li>
+    <li><%= link_to "Sell",  welcome_sell_path %></li>
+    <li><%= link_to "Connect",  welcome_connect_path %></li>
+    <li><%= link_to "My Tickets",  welcome_mytickets_path %></li>
+  </ul>
 
 <%= yield %>
 
