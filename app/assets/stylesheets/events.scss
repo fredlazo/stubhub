@@ -2,12 +2,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-a:link {
-  text-decoration: none;
-}
+
 
 li {
   list-style-type: none;
+}
+
+.events-container{
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #E7EAEC;
+  background-color: #FFF;
+  width: 70%;
+  position:relative;
+
 }
 
 .event-date{
@@ -60,9 +69,34 @@ li {
 
 }
 
+
+
+
+.event-price{
+  min-width: 165px;
+  padding-right: 10px;
+  vertical-align: top;
+  font-size: 12px;
+  text-align: right;
+  display: table-cell;
+}
+
+.event-price .from{
+  color: #87909A;
+}
+
+.event-price .price{
+  font-size: 18px;
+  color: #4E2287;
+  font-family: Interstate,"Helvetica Neue",Arial,sans-serif;
+  font-weight: bold;
+}
+
 .event-info{
+  text-decoration: none;
     padding: 0 30px;
     vertical-align: top;
     width: 100%;
     display: table-cell;
+    color: #085F99;
 }
