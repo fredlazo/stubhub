@@ -11,6 +11,9 @@ end
 
 gem 'bootstrap-sass'
 gem "react-rails"
+
+gem 'momentjs-rails', '>= 2.9.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 # #2
 group :development do
   gem 'sqlite3'

@@ -1,0 +1,17 @@
+<h1>Edit Event</h1>
+
+<%= form_for @event do |f| %>
+  <%= f.label :home_team, "Home Team" %><br />
+  <%= f.text_field :hometeam %>
+  <br />
+  <%= f.label :opponent, "Opponent" %><br />
+  <%= f.text_field :visitor %>
+  <br />
+  <%= f.label :Date %><br />
+  <%= f.datetime_select :date %>
+
+
+
+  <br />
+  <%= f.submit "Save" %>
+<% end %>

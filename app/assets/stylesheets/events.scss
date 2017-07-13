@@ -1,0 +1,68 @@
+// Place all the styles related to the Events controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.event-date{
+  width: 75px;
+  min-width: 75px;
+  height: 65px;
+  border-right: 1px solid #CFD4D9;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.event {
+    position: relative;
+    padding: 10px;
+    border-top: 1px solid #E7EAEC;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(231, 234, 236);
+
+}
+
+
+.day {
+    width: 100%;
+    color: #00A1A1;
+    font-weight: 500;
+    font-family: 'Interstate', 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
+    letter-spacing: -0.2px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.month-day{
+  font-size: 12px;
+  width: 100%;
+  height: auto;
+  color: #87909A;
+  display: block;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.1px;
+  margin-top: 2px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.event-info{
+    padding: 0 30px;
+    vertical-align: top;
+    width: 100%;
+    display: table-cell;
+}

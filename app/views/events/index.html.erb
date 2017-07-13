@@ -1,0 +1,19 @@
+
+<h1>Games</h1>
+
+
+
+<% @events.each do |event| %>
+<div class="event">
+  <div class="event-date">
+    <div class="day"><%= event.date.strftime("%a") %></div>
+    <div class="month-day"><%= event.date.strftime("%b") %> <%= event.date.strftime("%d") %></div>
+  </div>
+  <span class="event-info">
+    <%= link_to event do %>
+      <div><%= event.visitor%> at <%= event.hometeam%></div>
+      <div><%= event.date.strftime("%l:%M %p") %></div>
+    <% end %>
+  </span>
+</div>
+<% end %>
